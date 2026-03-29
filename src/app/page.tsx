@@ -1,9 +1,17 @@
-export default function Home() {
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { CertBadges } from "@/components/CertBadges";
+import { AboutSection } from "@/components/AboutSection";
+
+export default function HomePage() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
+    <div className="merit-page">
+      <Header />
+      <main>
+        <AboutSection />
+      </main>
+      <Footer />
+      <CertBadges />
+    </div>
   );
 }
