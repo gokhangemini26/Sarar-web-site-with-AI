@@ -48,3 +48,5 @@ export interface SocialLink {
   href: string;
   icon: string;
 }
+
+export * from './product';
