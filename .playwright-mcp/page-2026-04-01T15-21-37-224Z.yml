@@ -1,0 +1,653 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e8]:
+      - generic [ref=e9]: 2.000 TL üzerine ücretsiz kargo
+      - generic [ref=e10]: Seçili Ürünlerde %50’ye Varan İndirim
+    - banner [ref=e13]:
+      - generic [ref=e16]:
+        - generic [ref=e19]:
+          - link "logo" [ref=e21] [cursor=pointer]:
+            - /url: https://sarar.com/
+            - paragraph [ref=e22]:
+              - img "srr-logo.png (13 KB)" [ref=e23]
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - generic [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+                - text: Arama
+              - text: 
+            - link "Üye Girişi" [ref=e31] [cursor=pointer]:
+              - /url: "#header-member-panel-257"
+              - img [ref=e32]
+            - link "Sepetim" [ref=e36] [cursor=pointer]:
+              - /url: "#header-cart-panel-257"
+              - img [ref=e37]
+              - generic [ref=e40]: "0"
+        - navigation [ref=e41]:
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link "Erkek" [ref=e44] [cursor=pointer]:
+                - /url: https://sarar.com/erkek-giyim
+            - listitem [ref=e45]:
+              - link "Kadın" [ref=e46] [cursor=pointer]:
+                - /url: https://sarar.com/kadin-giyim
+            - listitem [ref=e47]:
+              - link "Smokin" [ref=e48] [cursor=pointer]:
+                - /url: https://sarar.com/smokin
+            - listitem [ref=e49]:
+              - link "Aksesuar" [ref=e50] [cursor=pointer]:
+                - /url: https://sarar.com/aksesuar
+            - listitem [ref=e51]:
+              - link "Sarev" [ref=e52] [cursor=pointer]:
+                - /url: https://sarar.com/sarev
+            - listitem [ref=e53]:
+              - link "Robin Yayla X SARAR" [ref=e54] [cursor=pointer]:
+                - /url: https://sarar.com/robin-yayla-x-sarar-koleksiyonu
+            - listitem [ref=e55]:
+              - link "İndirim" [ref=e56] [cursor=pointer]:
+                - /url: https://sarar.com/indirim
+            - listitem [ref=e57]:
+              - link "Sarar Blog" [ref=e58] [cursor=pointer]:
+                - /url: https://blog.sarar.com/
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - group "1 / 8" [ref=e65]:
+            - link "Seçili Ürünlerde %50’ye Varan İndirim" [ref=e66] [cursor=pointer]:
+              - /url: https://sarar.com/secili-urunlerde-50ye-varan-indirim
+              - img "Seçili Ürünlerde %50’ye Varan İndirim" [ref=e68]
+          - group "2 / 8" [ref=e69]:
+            - link "Banner" [ref=e70] [cursor=pointer]:
+              - /url: https://sarar.com/secili-robin-yayla-urunlerinde-ikinci-urunde-50-indirim
+              - img "Banner" [ref=e72]
+          - group "3 / 8" [ref=e73]:
+            - link "Sarev %25 sezon sonu" [ref=e74] [cursor=pointer]:
+              - /url: https://sarar.com/sarev-secili-urunlerde-25-sezon-sonu-kampanyasi
+          - group "4 / 8" [ref=e77]:
+            - link "Kadın Koleksiyonunda Seçili Ürünlerde %20 İndirim" [ref=e78] [cursor=pointer]:
+              - /url: https://sarar.com/kadin-koleksiyonunda-secili-urunlerde-yuzde-20-ye-varan-indirim
+          - group "5 / 8" [ref=e81]:
+            - link "Senin Sarar'ın Yok Mu ?" [ref=e82] [cursor=pointer]:
+              - /url: https://www.sarar.com/senin-sararin-yok-mu
+          - group "6 / 8" [ref=e85]:
+            - link "Seçili Kadın Ürünlerinde Sepette Tek Fiyat 1.199,99₺" [ref=e86] [cursor=pointer]:
+              - /url: https://sarar.com/secili-kadin-urunlerinde-sepette-1-199-99tl-tek-fiyat
+          - group "7 / 8" [ref=e89]:
+            - link "Robin Yayla Ürünlerinde %50 İndirim" [ref=e90] [cursor=pointer]:
+              - /url: https://sarar.com/robin-yayla-50
+          - group "8 / 8" [ref=e93]:
+            - link "Sarev Ürünlerinde Her 10.000TL ve Katları Alışverişe 1 Adet İpek Eşarp Hediye" [ref=e94] [cursor=pointer]:
+              - /url: https://www.sarar.com/sarev-urunlerinde-10000tl-ve-katlari-alisverise-1-adet-ipek-esarp-hediye
+        - generic [ref=e97]:
+          - button "Go to slide 1" [ref=e98] [cursor=pointer]
+          - button "Go to slide 2" [ref=e99] [cursor=pointer]
+          - button "Go to slide 3" [ref=e100] [cursor=pointer]
+          - button "Go to slide 4" [ref=e101] [cursor=pointer]
+          - button "Go to slide 5" [ref=e102] [cursor=pointer]
+          - button "Go to slide 6" [ref=e103] [cursor=pointer]
+          - button "Go to slide 7" [ref=e104] [cursor=pointer]
+          - button "Go to slide 8" [ref=e105] [cursor=pointer]
+      - button "Previous slide" [disabled] [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+      - button "Next slide" [ref=e109] [cursor=pointer]:
+        - img [ref=e110]
+  - generic [ref=e118]:
+    - link "Banner" [ref=e120] [cursor=pointer]:
+      - /url: https://sarar.com/kadin/dis-giyim
+      - img "Banner" [ref=e122]
+      - generic [ref=e123]:
+        - generic [ref=e124]: ŞIKLIK DOZUNUZU ARTIRAN DIŞ GİYİM KOLEKSİYONU
+        - generic [ref=e125]: KEŞFET
+    - link "Banner" [ref=e127] [cursor=pointer]:
+      - /url: https://sarar.com/erkek/dis-giyim
+      - img "Banner" [ref=e129]
+      - generic [ref=e130]:
+        - generic [ref=e131]: STİLİNİZİ GÜÇLENDİREN DIŞ GİYİM KOLEKSİYONU
+        - generic [ref=e132]: KEŞFET
+  - generic [ref=e135]:
+    - generic "Banner" [ref=e141]:
+      - generic [ref=e142]: Çok Satanlar
+      - generic [ref=e143]: Kadın, Erkek ve Sarev koleksiyonlarının en çok tercih edilen ürünleri
+      - link "KEŞFET" [ref=e144] [cursor=pointer]:
+        - /url: https://sarar.com/cok-satanlar
+    - generic [ref=e150]:
+      - generic [ref=e152]:
+        - group "1 / 12" [ref=e153]:
+          - link "Kadın Siyah Elbise" [ref=e154] [cursor=pointer]:
+            - /url: https://www.sarar.com/kadin-siyah-elbise-17986
+            - img "Kadın Siyah Elbise" [ref=e156]
+            - generic [ref=e157]: Kadın Siyah Elbise
+        - group "2 / 12" [ref=e158]:
+          - link "Fleet Çizgili Siyah Ceket" [ref=e159] [cursor=pointer]:
+            - /url: https://www.sarar.com/sarar-woman-fleet-cizgili-siyah-ceket-18251
+            - img "Fleet Çizgili Siyah Ceket" [ref=e161]
+            - generic [ref=e162]: Fleet Çizgili Siyah Ceket
+        - group "3 / 12" [ref=e163]:
+          - link "Zeus Resta Slim Fit Lacivert Takım Elbise" [ref=e164] [cursor=pointer]:
+            - /url: https://www.sarar.com/zeus-resta-slim-fit-lacivert-takim-elbise-18909
+            - img "Zeus Resta Slim Fit Lacivert Takım Elbise" [ref=e166]
+            - generic [ref=e167]: Zeus Resta Slim Fit Lacivert Takım Elbise
+        - group "4 / 12" [ref=e168]:
+          - link "Düğmeli Polo Yaka Kiremit Triko" [ref=e169] [cursor=pointer]:
+            - /url: https://www.sarar.com/dugmeli-polo-yaka-kiremit-triko-19627
+            - img "Düğmeli Polo Yaka Kiremit Triko" [ref=e171]
+            - generic [ref=e172]: Düğmeli Polo Yaka Kiremit Triko
+        - group "5 / 12" [ref=e173]:
+          - link "Neva Bej Elbise" [ref=e174] [cursor=pointer]:
+            - /url: https://www.sarar.com/sarar-woman-neva-bej-elbise-18537
+            - img "Neva Bej Elbise" [ref=e176]
+            - generic [ref=e177]: Neva Bej Elbise
+        - group "6 / 12" [ref=e178]:
+          - link "Arta Regular Fit Çizgili Siyah Mont" [ref=e179] [cursor=pointer]:
+            - /url: https://www.sarar.com/arta-regular-fit-cizgili-siyah-mont-19292
+            - img "Arta Regular Fit Çizgili Siyah Mont" [ref=e181]
+            - generic [ref=e182]: Arta Regular Fit Çizgili Siyah Mont
+        - group "7 / 12" [ref=e183]:
+          - link "Goias Soho Desenli Siyah Gömlek" [ref=e184] [cursor=pointer]:
+            - /url: https://www.sarar.com/goias-soho-desenli-siyah-gomlek-18598
+            - img "Goias Soho Desenli Siyah Gömlek" [ref=e186]
+            - generic [ref=e187]: Goias Soho Desenli Siyah Gömlek
+        - group "8 / 12" [ref=e188]:
+          - link "Napoleone Regular Fit Açık Lacivert Takım Elbise" [ref=e189] [cursor=pointer]:
+            - /url: https://www.sarar.com/napoleone-regular-fit-acik-lacivert-takim-elbise-18618
+            - img "Napoleone Regular Fit Açık Lacivert Takım Elbise" [ref=e191]
+            - generic [ref=e192]: Napoleone Regular Fit Açık Lacivert Takım Elbise
+        - group "9 / 12" [ref=e193]:
+          - link "Dorso Pembe Triko Elbise" [ref=e194] [cursor=pointer]:
+            - /url: https://www.sarar.com/sarar-dorso-pembe-triko-elbise-18480
+            - generic [ref=e196]: Dorso Pembe Triko Elbise
+        - group "10 / 12" [ref=e197]:
+          - link "Heno Siyah Pantolon" [ref=e198] [cursor=pointer]:
+            - /url: https://www.sarar.com/sarar-woman-heno-pantolon-18256
+            - generic [ref=e200]: Heno Siyah Pantolon
+        - group "11 / 12" [ref=e201]:
+          - link "Blair Ekose Siyah Etek" [ref=e202] [cursor=pointer]:
+            - /url: https://www.sarar.com/blair-ekose-siyah-etek-19133
+            - generic [ref=e204]: Blair Ekose Siyah Etek
+        - group "12 / 12" [ref=e205]:
+          - link "Roys Relax Fit Siyah Pantolon" [ref=e206] [cursor=pointer]:
+            - /url: https://www.sarar.com/roys-relax-fit-siyah-pantolon-19754
+            - generic [ref=e209]: Roys Relax Fit Siyah Pantolon
+      - button "Previous slide" [disabled] [ref=e210] [cursor=pointer]:
+        - generic [ref=e211]: 
+      - button "Next slide" [ref=e212] [cursor=pointer]:
+        - generic [ref=e213]: 
+  - generic [ref=e218]:
+    - generic [ref=e220]:
+      - img "Banner" [ref=e223]
+      - generic [ref=e225]:
+        - generic [ref=e226]: DAVET STİLİ
+        - generic [ref=e227]: Sofistike dokular ve özgün tasarımlar, davetlerdeki stilinizi bir adım öne taşıyor.
+        - link "KEŞFET" [ref=e228] [cursor=pointer]:
+          - /url: https://sarar.com/davet-stili
+    - generic [ref=e231]:
+      - generic [ref=e232]: SARAR LIFE STYLE
+      - generic [ref=e233]:
+        - generic [ref=e235]:
+          - group "1 / 10" [ref=e236]:
+            - link "Senin Sarar’ın Yok mu?" [ref=e237] [cursor=pointer]:
+              - /url: https://blog.sarar.com/senin-sararin-yok-mu/
+              - img "Senin Sarar’ın Yok mu?" [ref=e239]
+              - generic [ref=e240]: Senin Sarar’ın Yok mu?
+          - group "2 / 10" [ref=e241]:
+            - 'link "Mevsimin Ruhunu Evinize Taşıyın: Sarev FW25/26" [ref=e242] [cursor=pointer]':
+              - /url: https://blog.sarar.com/mevsimin-ruhunu-evinize-tasiyin-sarev-fw25-26/
+              - 'img "Mevsimin Ruhunu Evinize Taşıyın: Sarev FW25/26" [ref=e244]'
+              - generic [ref=e245]: "Mevsimin Ruhunu Evinize Taşıyın: Sarev FW25/26"
+          - group "3 / 10" [ref=e246]:
+            - link "Sessiz Lüks Akımı Nedir?" [ref=e247] [cursor=pointer]:
+              - /url: https://blog.sarar.com/sessiz-luks-akimi-nedir/
+              - img "Sessiz Lüks Akımı Nedir?" [ref=e249]
+              - generic [ref=e250]: Sessiz Lüks Akımı Nedir?
+          - group "4 / 10" [ref=e251]:
+            - link "Power Dressing Nedir?" [ref=e252] [cursor=pointer]:
+              - /url: https://blog.sarar.com/power-dressing-nedir/
+              - img "Power Dressing Nedir?" [ref=e254]
+              - generic [ref=e255]: Power Dressing Nedir?
+          - group "5 / 10" [ref=e256]:
+            - link "Burçlara Şans Getiren Renkler Nelerdir?" [ref=e257] [cursor=pointer]:
+              - /url: https://blog.sarar.com/burclara-sans-getiren-renkler-nelerdir/
+              - img "Burçlara Şans Getiren Renkler Nelerdir?" [ref=e259]
+              - generic [ref=e260]: Burçlara Şans Getiren Renkler Nelerdir?
+          - group "6 / 10" [ref=e261]:
+            - link "Spotify" [ref=e262] [cursor=pointer]:
+              - /url: https://open.spotify.com/user/31vd7eube5fu4udgntx76mz6wf74?si=3ddecf227cf84724&nd=1&dlsi=f486179e21e34c99
+              - img "Spotify" [ref=e264]
+              - generic [ref=e265]: SARAR Spotify
+          - group "7 / 10" [ref=e266]:
+            - link "Sarar Blog" [ref=e267] [cursor=pointer]:
+              - /url: "https://blog.sarar.com/ "
+              - img "Sarar Blog" [ref=e269]
+              - generic [ref=e270]: Sarar Blog
+          - group "8 / 10" [ref=e271]:
+            - link "Atatürk" [ref=e272] [cursor=pointer]:
+              - /url: https://blog.sarar.com/mustafa-kemal-ataturkun-cagdas-ve-klasik-giyim-stili/
+              - generic [ref=e274]: Mustafa Kemal Atatürk’ün Çağdaş ve Klasik Giyim Stili
+          - group "9 / 10" [ref=e275]:
+            - 'link "Sessiz Lüks: SARAR FW25/26 Koleksiyonunda Modüler Formlar" [ref=e276] [cursor=pointer]':
+              - /url: https://blog.sarar.com/sessiz-luks-sarar-fw25-26-koleksiyonunda-moduler-formlar/
+              - generic [ref=e278]: "Sessiz Lüks: SARAR FW25/26 Koleksiyonunda Modüler Formlar"
+          - group "10 / 10" [ref=e279]:
+            - link "Kadın ve Erkekler için Beyaz Kazak Kombin Rehberi" [ref=e280] [cursor=pointer]:
+              - /url: https://blog.sarar.com/kadin-ve-erkekler-icin-beyaz-kazak-kombin-rehberi/
+              - generic [ref=e283]: Kadın ve Erkekler için Beyaz Kazak Kombin Rehberi
+        - button "Previous slide" [disabled] [ref=e284] [cursor=pointer]:
+          - generic [ref=e285]: 
+        - button "Next slide" [ref=e286] [cursor=pointer]:
+          - generic [ref=e287]: 
+    - generic [ref=e290]:
+      - paragraph [ref=e291]
+      - paragraph [ref=e292]:
+        - generic [ref=e293]: Tarayıcınız video etiketini desteklemiyor.
+    - link "Sarev Ocak 2026" [ref=e299] [cursor=pointer]:
+      - /url: https://sarar.com/nevresim-takimlari
+      - img "Sarev Ocak 2026" [ref=e301]
+    - generic [ref=e305]:
+      - generic "Banner" [ref=e307]:
+        - img "Banner" [ref=e309]
+        - generic [ref=e310]:
+          - generic [ref=e311]: Güvenli Alışveriş
+          - generic [ref=e312]: 256 Bit SSL&3D Secure
+      - generic "Banner" [ref=e314]:
+        - img "Banner" [ref=e316]
+        - generic [ref=e317]:
+          - generic [ref=e318]: Ücretsiz Kargo
+          - generic [ref=e319]: 2000₺ ve üzeri alışverişlerde
+      - generic "Banner" [ref=e321]:
+        - img "Banner" [ref=e323]
+        - generic [ref=e324]:
+          - generic [ref=e325]: Taksitli Alışveriş
+          - generic [ref=e326]:
+            - text: Peşin fiyatına
+            - text: 4 taksit imkanı
+      - generic "Banner" [ref=e328]:
+        - img "Banner" [ref=e330]
+        - generic [ref=e331]:
+          - generic [ref=e332]: İade & Değişim
+          - generic [ref=e333]:
+            - text: 14 gün içinde iade
+            - text: 30 gün içinde mağazadan değişim
+      - generic "Banner" [ref=e335]:
+        - img "Banner" [ref=e337]
+        - generic [ref=e338]:
+          - generic [ref=e339]: Online Öde Mağazadan Al
+          - generic [ref=e340]: En yakın Sarar mağazasından teslim
+  - contentinfo [ref=e346]:
+    - generic [ref=e348]:
+      - generic [ref=e350]:
+        - generic [ref=e351]: Yenilikleri kaçırmayın!
+        - generic [ref=e352]:
+          - generic [ref=e353]:
+            - textbox "E-posta adresinizi giriniz" [ref=e355]
+            - button "Kayıt Ol" [ref=e356] [cursor=pointer]
+          - generic [ref=e359] [cursor=pointer]:
+            - link "KVKK Sözleşmesi'ni" [ref=e361]:
+              - /url: /srv/service/content/get-setting/KvkkMesaj
+            - text: ", okudum, kabul ediyorum."
+      - navigation [ref=e363]:
+        - list [ref=e364]:
+          - listitem [ref=e365]:
+            - generic [ref=e366]:
+              - link "Erkek Kategorileri" [ref=e367] [cursor=pointer]:
+                - /url: https://sarar.com/erkek-giyim
+                - text: Erkek Kategorileri  
+              - list [ref=e368]:
+                - listitem [ref=e369]:
+                  - link "Erkek Takım Elbise Kombinleri" [ref=e370] [cursor=pointer]:
+                    - /url: https://sarar.com/erkek-takim-elbise-kombin
+                - listitem [ref=e371]:
+                  - link "Robin Yayla Kombinleri" [ref=e372] [cursor=pointer]:
+                    - /url: https://sarar.com/robin-yayla-kombin
+                - listitem [ref=e373]:
+                  - link "Erkek Takım Elbise" [ref=e374] [cursor=pointer]:
+                    - /url: /erkek/takim-elbise
+                - listitem [ref=e375]:
+                  - link "Erkek Gömlek" [ref=e376] [cursor=pointer]:
+                    - /url: /erkek-gomlek-modelleri
+                - listitem [ref=e377]:
+                  - link "Erkek Pantolon" [ref=e378] [cursor=pointer]:
+                    - /url: /erkek/pantolon
+                - listitem [ref=e379]:
+                  - link "Erkek Ceket" [ref=e380] [cursor=pointer]:
+                    - /url: /erkek/ceket
+                - listitem [ref=e381]:
+                  - link "Smokin Takım Elbise" [ref=e382] [cursor=pointer]:
+                    - /url: /smokin
+                - listitem [ref=e383]:
+                  - link "Smokin Gömlek" [ref=e384] [cursor=pointer]:
+                    - /url: /davet-stili-smokin-gomlek
+                - listitem [ref=e385]:
+                  - link "Erkek Tişört" [ref=e386] [cursor=pointer]:
+                    - /url: /erkek/tisort
+                - listitem [ref=e387]:
+                  - link "Erkek Plaj" [ref=e388] [cursor=pointer]:
+                    - /url: /plaj-urunleri
+                - listitem [ref=e389]:
+                  - link "Erkek Kemer" [ref=e390] [cursor=pointer]:
+                    - /url: /kemer
+                - listitem [ref=e391]:
+                  - link "Erkek Cüzdan" [ref=e392] [cursor=pointer]:
+                    - /url: /cuzdan-ve-kartvizitlik
+                - listitem [ref=e393]:
+                  - link "Erkek Günlük Ayakkabı" [ref=e394] [cursor=pointer]:
+                    - /url: https://sarar.com/erkek-gunluk-ayakkabi
+                - listitem [ref=e395]:
+                  - link "Çocuk Smokin" [ref=e396] [cursor=pointer]:
+                    - /url: /cocuk-smokin
+          - listitem [ref=e397]:
+            - generic [ref=e398]:
+              - link "Kadın Kategorileri" [ref=e399] [cursor=pointer]:
+                - /url: https://sarar.com/kadin-giyim
+                - text: Kadın Kategorileri  
+              - list [ref=e400]:
+                - listitem [ref=e401]:
+                  - link "Kadın Takım Elbise Kombinleri" [ref=e402] [cursor=pointer]:
+                    - /url: https://sarar.com/kadin-takim-elbise-kombin
+                - listitem [ref=e403]:
+                  - link "Davet Elbisesi" [ref=e404] [cursor=pointer]:
+                    - /url: /davet-elbiseleri
+                - listitem [ref=e405]:
+                  - link "Abiye Elbise" [ref=e406] [cursor=pointer]:
+                    - /url: /abiye-elbise-60
+                - listitem [ref=e407]:
+                  - link "Kadın Elbise" [ref=e408] [cursor=pointer]:
+                    - /url: /elbise
+                - listitem [ref=e409]:
+                  - link "Kadın Gömlek" [ref=e410] [cursor=pointer]:
+                    - /url: /kadin/gomlek
+                - listitem [ref=e411]:
+                  - link "Kadın Pantolon" [ref=e412] [cursor=pointer]:
+                    - /url: /kadin/pantolon
+                - listitem [ref=e413]:
+                  - link "Kadın Ceket" [ref=e414] [cursor=pointer]:
+                    - /url: /kadin/ceket
+                - listitem [ref=e415]:
+                  - link "Kadın Tişört" [ref=e416] [cursor=pointer]:
+                    - /url: /kadin/tisort
+                - listitem [ref=e417]:
+                  - link "Kadın Şort" [ref=e418] [cursor=pointer]:
+                    - /url: /kadin/sort
+                - listitem [ref=e419]:
+                  - link "Şal" [ref=e420] [cursor=pointer]:
+                    - /url: /sal
+                - listitem [ref=e421]:
+                  - link "Etek" [ref=e422] [cursor=pointer]:
+                    - /url: /etek
+                - listitem [ref=e423]:
+                  - link "Bluz" [ref=e424] [cursor=pointer]:
+                    - /url: /bluz
+          - listitem [ref=e425]:
+            - generic [ref=e426]:
+              - link "Ev Tekstili" [ref=e427] [cursor=pointer]:
+                - /url: https://sarar.com/nevresim-takimlari
+                - text: Ev Tekstili  
+              - list [ref=e428]:
+                - listitem [ref=e429]:
+                  - link "Nevresim Takımı" [ref=e430] [cursor=pointer]:
+                    - /url: /nevresim-takimlari
+                - listitem [ref=e431]:
+                  - link "Çarşaf Takımı" [ref=e432] [cursor=pointer]:
+                    - /url: /carsaf-takimlari
+                - listitem [ref=e433]:
+                  - link "Pike Takımı" [ref=e434] [cursor=pointer]:
+                    - /url: /pike-takimlari
+                - listitem [ref=e435]:
+                  - link "Yorgan Modelleri" [ref=e436] [cursor=pointer]:
+                    - /url: /yorgan-modelleri
+                - listitem [ref=e437]:
+                  - link "Yastık Modelleri" [ref=e438] [cursor=pointer]:
+                    - /url: /yastik-modelleri
+                - listitem [ref=e439]:
+                  - link "Battaniye" [ref=e440] [cursor=pointer]:
+                    - /url: /battaniye
+                - listitem [ref=e441]:
+                  - link "Yatak Örtüsü" [ref=e442] [cursor=pointer]:
+                    - /url: /yatak-ortuleri
+                - listitem [ref=e443]:
+                  - link "İpek Yorgan Modelleri" [ref=e444] [cursor=pointer]:
+                    - /url: /ipek-yorgan-modelleri
+                - listitem [ref=e445]:
+                  - link "Alez" [ref=e446] [cursor=pointer]:
+                    - /url: /alez
+          - listitem [ref=e447]:
+            - generic [ref=e448]:
+              - link "Popüler Kategoriler":
+                - /url: https://sarar.com/
+                - text: Popüler Kategoriler  
+              - list [ref=e449]:
+                - listitem [ref=e450]:
+                  - link "Erkek Spor Giyim" [ref=e451] [cursor=pointer]:
+                    - /url: /erkek/spor-giyim
+                - listitem [ref=e452]:
+                  - link "Kadın Spor Giyim" [ref=e453] [cursor=pointer]:
+                    - /url: /kadin/spor-giyim
+                - listitem [ref=e454]:
+                  - link "Damatlık" [ref=e455] [cursor=pointer]:
+                    - /url: /damatlik
+                - listitem [ref=e456]:
+                  - link "Elbise" [ref=e457] [cursor=pointer]:
+                    - /url: /elbise
+                - listitem [ref=e458]:
+                  - link "Blazer Ceket" [ref=e459] [cursor=pointer]:
+                    - /url: /erkek/blazer-ceket
+                - listitem [ref=e460]:
+                  - link "Yazlık Elbise" [ref=e461] [cursor=pointer]:
+                    - /url: /yazlik-elbise
+                - listitem [ref=e462]:
+                  - link "Erkek Ayakkabı" [ref=e463] [cursor=pointer]:
+                    - /url: /erkek/ayakkabi
+                - listitem [ref=e464]:
+                  - link "Polo Yaka Tişört" [ref=e465] [cursor=pointer]:
+                    - /url: /erkek/polo-yaka-tisort
+                - listitem [ref=e466]:
+                  - link "Kumaş Pantolon" [ref=e467] [cursor=pointer]:
+                    - /url: /erkek/kumas-pantolon
+                - listitem [ref=e468]:
+                  - link "Çocuk Giyim" [ref=e469] [cursor=pointer]:
+                    - /url: /cocuk-giyim
+          - listitem [ref=e470]:
+            - generic [ref=e471]:
+              - link "Sarev" [ref=e472] [cursor=pointer]:
+                - /url: https://sarar.com/sarev
+                - text: Sarev  
+              - list [ref=e473]:
+                - listitem [ref=e474]:
+                  - link "Ev Kozmetiği" [ref=e475] [cursor=pointer]:
+                    - /url: /ev-kozmetigi
+                - listitem [ref=e476]:
+                  - link "Masa Örtüsü" [ref=e477] [cursor=pointer]:
+                    - /url: /masa-ortuleri
+                - listitem [ref=e478]:
+                  - link "Kırlent" [ref=e479] [cursor=pointer]:
+                    - /url: /kirlent
+                - listitem [ref=e480]:
+                  - link "Throw" [ref=e481] [cursor=pointer]:
+                    - /url: /throw
+                - listitem [ref=e482]:
+                  - link "Plaj Havlusu" [ref=e483] [cursor=pointer]:
+                    - /url: /plaj-havlusu-pestemal
+                - listitem [ref=e484]:
+                  - link "Bornoz" [ref=e485] [cursor=pointer]:
+                    - /url: /bornoz-modelleri
+                - listitem [ref=e486]:
+                  - link "Havlu" [ref=e487] [cursor=pointer]:
+                    - /url: /havlu-modelleri
+                - listitem [ref=e488]:
+                  - link "Paspas" [ref=e489] [cursor=pointer]:
+                    - /url: /paspas-modelleri
+          - listitem [ref=e490]:
+            - generic [ref=e491]:
+              - link "Aksesuar" [ref=e492] [cursor=pointer]:
+                - /url: https://sarar.com/aksesuar
+                - text: Aksesuar  
+              - list [ref=e493]:
+                - listitem [ref=e494]:
+                  - link "Erkek Aksesuar" [ref=e495] [cursor=pointer]:
+                    - /url: /aksesuar
+                - listitem [ref=e496]:
+                  - link "Kravat" [ref=e497] [cursor=pointer]:
+                    - /url: /kravat
+                - listitem [ref=e498]:
+                  - link "Mendil" [ref=e499] [cursor=pointer]:
+                    - /url: /mendil
+                - listitem [ref=e500]:
+                  - link "İpek Kravat" [ref=e501] [cursor=pointer]:
+                    - /url: /ipek-kravat
+                - listitem [ref=e502]:
+                  - link "Hediye Setleri" [ref=e503] [cursor=pointer]:
+                    - /url: /hediye-setleri
+                - listitem [ref=e504]:
+                  - link "Kol Düğmesi" [ref=e505] [cursor=pointer]:
+                    - /url: /kol-dugmesi
+                - listitem [ref=e506]:
+                  - link "Çanta" [ref=e507] [cursor=pointer]:
+                    - /url: /canta
+                - listitem [ref=e508]:
+                  - link "Eşarp" [ref=e509] [cursor=pointer]:
+                    - /url: /esarp
+                - listitem [ref=e510]:
+                  - link "Fular" [ref=e511] [cursor=pointer]:
+                    - /url: /fular
+          - listitem [ref=e512]:
+            - generic [ref=e513]:
+              - link "Özel Sayfalar":
+                - /url: ""
+                - text: Özel Sayfalar  
+              - list [ref=e514]:
+                - listitem [ref=e515]:
+                  - link "Babalar Günü" [ref=e516] [cursor=pointer]:
+                    - /url: /babalar-gunu
+                - listitem [ref=e517]:
+                  - link "Anneler Günü" [ref=e518] [cursor=pointer]:
+                    - /url: /anneler-gunu
+                - listitem [ref=e519]:
+                  - link "Sevgililer Günü" [ref=e520] [cursor=pointer]:
+                    - /url: /sevgililer-gunu
+                - listitem [ref=e521]:
+                  - link "Tatil Kombinleri" [ref=e522] [cursor=pointer]:
+                    - /url: /tatil-kombinleri
+                - listitem [ref=e523]:
+                  - link "Yılbaşı Hediyeleri" [ref=e524] [cursor=pointer]:
+                    - /url: /yeni-yil-hediyeleri
+                - listitem [ref=e525]:
+                  - link "Yeni Ürünler" [ref=e526] [cursor=pointer]:
+                    - /url: /yeni-urunler
+                - listitem [ref=e527]:
+                  - link "İndirimli Ürünler" [ref=e528] [cursor=pointer]:
+                    - /url: /indirimli-urunler
+                - listitem [ref=e529]:
+                  - link "Katalog" [ref=e530] [cursor=pointer]:
+                    - /url: /katalog
+                - listitem [ref=e531]:
+                  - link "Drop" [ref=e532] [cursor=pointer]:
+                    - /url: https://blog.sarar.com/takim-elbise-ve-cekette-drop-kesim-nedir/
+                - listitem [ref=e533]:
+                  - link "Kampanyalar" [ref=e534] [cursor=pointer]:
+                    - /url: https://sarar.com/kampanyalar
+          - listitem [ref=e535]:
+            - generic [ref=e536]:
+              - link "Kurumsal":
+                - /url: ""
+                - text: Kurumsal  
+              - list [ref=e537]:
+                - listitem [ref=e538]:
+                  - link "Hakkımızda" [ref=e539] [cursor=pointer]:
+                    - /url: https://sarar.com/hakkimizda
+                - listitem [ref=e540]:
+                  - link "Sarar Group" [ref=e541] [cursor=pointer]:
+                    - /url: https://group.sarar.com/
+                - listitem [ref=e542]:
+                  - link "Sarar Blog" [ref=e543] [cursor=pointer]:
+                    - /url: https://blog.sarar.com/
+                - listitem [ref=e544]:
+                  - link "Sıkça Sorulan Sorular" [ref=e545] [cursor=pointer]:
+                    - /url: https://sarar.com/sikca-sorulan-sorular
+                - listitem [ref=e546]:
+                  - link "Mağazadan Teslim" [ref=e547] [cursor=pointer]:
+                    - /url: /magazadan-teslim
+                - listitem [ref=e548]:
+                  - link "Sipariş Takip" [ref=e549] [cursor=pointer]:
+                    - /url: https://sarar.com/siparis-takip
+                - listitem [ref=e550]:
+                  - link "Bilgi Toplumu Hizmetleri" [ref=e551] [cursor=pointer]:
+                    - /url: https://www.belgemodul.com/sirket/740
+                - listitem [ref=e552]:
+                  - link "Gizlilik Sözleşmesi" [ref=e553] [cursor=pointer]:
+                    - /url: /gizlilik-sozlesmesi
+                - listitem [ref=e554]:
+                  - link "KVKK Müşteri Aydınlatma Metni" [ref=e555] [cursor=pointer]:
+                    - /url: https://sarar.com/kvkk-musteri-aydinlatma-metni
+                - listitem [ref=e556]:
+                  - link "Müşteri Açık Rıza Metni" [ref=e557] [cursor=pointer]:
+                    - /url: https://sarar.com/musteri-acik-riza-metni
+                - listitem [ref=e558]:
+                  - link "Çerez Politikası" [ref=e559] [cursor=pointer]:
+                    - /url: /cerez-politikasi
+                - listitem [ref=e560]:
+                  - link "Çerez Ayarlarını Düzenleyin" [ref=e561] [cursor=pointer]:
+                    - /url: javascript:void(0)
+          - listitem [ref=e562]:
+            - generic [ref=e563]:
+              - paragraph [ref=e565]:
+                - img "srr-logo.png (13 KB)" [ref=e566]
+              - generic [ref=e567]: Hafta içi 09.00-18.00 saatleri arasında arayabilirsiniz.
+              - link "444 95 44" [ref=e569] [cursor=pointer]:
+                - /url: tel:4449544
+              - generic [ref=e570]:
+                - link "Mağazalarımız" [ref=e571] [cursor=pointer]:
+                  - /url: https://sarar.com/magazalarimiz
+                - generic [ref=e572]: "|"
+                - link "İletişim" [ref=e573] [cursor=pointer]:
+                  - /url: https://sarar.com/iletisim
+              - generic [ref=e574]:
+                - link "google-play" [ref=e575] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.tsoft.sarar
+                  - img "google-play" [ref=e576]
+                - link "app-store" [ref=e577] [cursor=pointer]:
+                  - /url: https://apps.apple.com/tr/app/sarar/id6738720569?l=tr
+                  - img "app-store" [ref=e578]
+              - generic [ref=e582]:
+                - generic [ref=e583]: Bizi Takip Edin
+                - list [ref=e584]:
+                  - listitem [ref=e585]:
+                    - link "Facebook" [ref=e586] [cursor=pointer]:
+                      - /url: https://www.facebook.com/SararGroup
+                      - img "Facebook" [ref=e587]
+                  - listitem [ref=e588]:
+                    - link "Twitter" [ref=e589] [cursor=pointer]:
+                      - /url: https://twitter.com/SararGroup
+                      - img "Twitter" [ref=e590]
+                  - listitem [ref=e591]:
+                    - link "Instagram" [ref=e592] [cursor=pointer]:
+                      - /url: https://www.instagram.com/sarargroup
+                      - img "Instagram" [ref=e593]
+                  - listitem [ref=e594]:
+                    - link "Youtube" [ref=e595] [cursor=pointer]:
+                      - /url: https://www.youtube.com/user/sarargroup
+                      - img "Youtube" [ref=e596]
+                  - listitem [ref=e597]:
+                    - link "Tumblr" [ref=e598] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/sarar/?originalSubdomain=tr
+                      - img "Tumblr" [ref=e599]
+                  - listitem [ref=e600]:
+                    - link "Pinterest" [ref=e601] [cursor=pointer]:
+                      - /url: https://open.spotify.com/user/31vd7eube5fu4udgntx76mz6wf74?si=7fc844fad3f545b3&nd=1
+                      - img "Pinterest" [ref=e602]
+    - generic [ref=e603]:
+      - img "Finansbank" [ref=e608]
+      - img "Maximum" [ref=e616]
+      - img "Sağlam kart" [ref=e618]
+    - generic [ref=e619]: © 2026 Sarar Büyük Mağazacılık Tic. A.Ş. Bütün Hakları Saklıdır.
+  - link "T-Soft Premium" [ref=e621] [cursor=pointer]:
+    - /url: https://www.tsoft.com.tr/Eticaret/Premium
+    - img "T-Soft Premium" [ref=e622]
+  - generic [ref=e625]:
+    - generic [ref=e626]:
+      - img [ref=e628]
+      - generic [ref=e630]:
+        - heading "Çerez Politikamız" [level=3] [ref=e631]
+        - paragraph [ref=e632]: Çerezler, içeriği ve reklamları kişiselleştirmek, sosyal medya özellikleri sağlamak ve trafiğimizi analiz etmek için kullanılmaktadır. “Kabul Et” seçeneği ile tüm çerezleri kabul edebilirsiniz veya “Çerez Ayarları” seçeneği ile ayarları düzenleyebilirsiniz.
+    - generic [ref=e633]:
+      - button "Ayarları Yönet" [ref=e634] [cursor=pointer]
+      - button "Reddet" [ref=e635] [cursor=pointer]
+      - button "Hepsini Kabul Et" [ref=e636] [cursor=pointer]

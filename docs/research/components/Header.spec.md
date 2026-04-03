@@ -1,82 +1,47 @@
-# Header Specification
+# Header Specification — SARAR
 
 ## Overview
 - **Target file:** `src/components/Header.tsx`
-- **Screenshot:** `docs/design-references/merit-desktop-full.png`
-- **Interaction model:** static + click navigation
+- **Screenshot:** `docs/design-references/section-01-header-hero.png`
+- **Interaction model:** static (no scroll behavior)
 
-## DOM Structure
-```
-<header>
-  <div> // centered logo container
-    <img src="/images/logo.png" alt="Merit Textile LTD." />
-  </div>
-  <nav>
-    <ul> // horizontal flex list
-      <li><a href="/">About Us</a></li>
-      <li><a href="/process">Process</a></li>
-      <li><a href="/products">Products</a></li>
-      <li><a href="/clients">Clients</a></li>
-      <li><a href="/social-responsibility">Social Responsibility</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-```
+## Structure
+Three rows stacked vertically:
+1. AnnouncementBar (black strip, 30px height, full width)
+2. LogoRow (white bg, ~100px height — icons left placeholder, logo center, icons right)
+3. NavBar (white bg, ~50px height — horizontal nav links centered)
 
-## Computed Styles (exact)
-
-### Header container
-- backgroundColor: transparent (sits on top of page navy #002e5d)
-- paddingTop: 13px (logo starts at y=13)
-- height: 142px total
-- display: flex; flexDirection: column; alignItems: center
-
-### Logo image
-- width: 180px (rendered, natural: 360x71)
-- height: auto
-- marginBottom: ~15px
-
-### Nav
+## AnnouncementBar
+- backgroundColor: #000000
+- color: #ffffff
+- height: 30px
 - width: 100%
-- display: flex; justifyContent: center
-- backgroundColor: transparent
+- display: flex; alignItems: center; justifyContent: center; overflow: hidden
+- fontFamily: Teachers, sans-serif; fontSize: 16px; fontWeight: 500
+- Two messages alternating via CSS animation fadeMessage (defined in globals.css):
+  - Message 1 (delay 0s): "2.000 TL üzerine ücretsiz kargo"
+  - Message 2 (delay 3s): "Seçili Ürünlerde %50'ye Varan İndirim"
+  - Each: position: absolute, opacity: 0, animation: fadeMessage 9s infinite, text-align: center
 
-### Nav UL
-- display: flex; flexDirection: row; listStyle: none
-- gap: 0; padding: 0; margin: 0
+## LogoRow
+- backgroundColor: #ffffff
+- height: 100px
+- display: flex; alignItems: center; padding: 0 30px
+- Three columns: left (empty/spacer col-4), center (logo, col-4 flex justify-center), right (icons, col-4 flex justify-end gap-5)
+- Logo: `<img src="/images/srr-logo.png" alt="SARAR" style={{height:'65px',width:'auto'}} />`
+- Right icons: Search (MagnifyingGlass + "Arama" text), User icon, ShoppingCart icon with "0" badge
+- Icon color: #373738, fontSize: 13px, gap between items: 20px
 
-### Nav link (default)
-- fontFamily: 'Poppins', Arial, sans-serif
-- fontSize: 15px
-- fontWeight: 700
-- color: rgb(255, 255, 255) — white
-- textDecoration: none
-- padding: 0 12px
-- cursor: pointer
+## NavBar
+- backgroundColor: #ffffff
+- borderBottom: 1px solid #e5e5e5
+- display: flex; justifyContent: center; gap: 40px; padding: 14px 0
+- fontFamily: Teachers, sans-serif; fontSize: 15px; fontWeight: 600; color: #010203
+- Nav items (in order): Erkek, Kadın, Smokin, Aksesuar, Sarev, Robin Yayla X SARAR, İndirim, Sarar Blog
+- "İndirim": color #e42437 (red)
+- "Sarar Blog": links to external blog.sarar.com
+- All: text-decoration: none; no hover transition needed for static clone
 
-### Nav link (active page)
-- color: rgb(240, 213, 213) — light pink/salmon
-
-## States & Behaviors
-
-### Active nav item
-- **Trigger:** current page URL matches href
-- **State A (default):** color: #ffffff
-- **State B (active):** color: rgb(240, 213, 213) = #f0d5d5
-- **Transition:** none (static color)
-- **Implementation:** use Next.js `usePathname()` to compare
-
-### Hover
-- No explicit hover effect beyond cursor change (Wix default)
-
-## Assets
-- Logo image: `/images/logo.png` (downloaded)
-
-## Text Content (verbatim)
-- About Us | Process | Products | Clients | Social Responsibility | Contact
-
-## Responsive Behavior
-- **Desktop (1440px):** logo centered, nav links horizontal below
-- **Mobile (390px):** logo centered, nav links in a smaller row or wrap
-- **Breakpoint:** ~768px — nav may stack or shrink
+## Responsive
+- Desktop 1440px: full 3-col header + horizontal nav
+- Mobile 390px: logo centered, hamburger icon (Menu lucide) on left, nav hidden

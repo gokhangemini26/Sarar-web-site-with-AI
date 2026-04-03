@@ -1,40 +1,49 @@
-# Merit Tekstil — Page Topology
+# SARAR.COM — Page Topology
 
-## Site Structure
-Multi-page site (Wix). All pages share the same Header and Footer.
-Base URL: https://www.merittekstil.com/
-
-## Pages
-1. `/` — About Us (homepage)
-2. `/process` — Process
-3. `/products` — Products
-4. `/clients` — Clients
-5. `/social-responsibility` — Social Responsibility
-6. `/contact` — Contact
+## Site Info
+Single-page homepage (Turkish fashion e-commerce)
+URL: https://sarar.com
+Language: tr-TR
+Font: Teachers (main), Montserrat (secondary)
+Colors: bg #ffffff, text #373738, accent red #e42437, gold/bronze for logo
 
 ## Global Layout
-- Background: `rgb(0, 46, 93)` (#002e5d) — dark navy blue, applies to every page
-- All pages: full-page navy blue background, centered content column (~570px wide on small pages, ~980px on clients)
-- Header: sticky, transparent bg on top of navy, contains centered logo + horizontal nav
-- Footer: contains contact row (location, email, phone) + certification badges bottom-right
-- CertificationBadges (amfori BSCI + GOTS): fixed bottom-right on all pages
+- Background: white (#ffffff)
+- Body text: rgb(55, 55, 56) = #373738
+- Max content width: ~1405px (container with 15px side padding)
+- Header: static (scrolls with page, NOT sticky)
+- No smooth scroll library detected
 
-## Shared Components
-- `Header` — logo (image) + nav links
-- `Footer` — contact icons row + copyright
-- `CertBadges` — bottom-right fixed amfori BSCI + GOTS icons
-- `PageTitle` — H2 + red horizontal rule, used on every page
+## Sections (top to bottom)
 
-## Z-Index Layers
-- CertBadges: fixed bottom-right, above content
+| # | Name | Approx Height | Interaction |
+|---|------|--------------|-------------|
+| 1 | AnnouncementBar | 30px | time-driven (2 alternating messages, CSS fadeMessage animation) |
+| 2 | Header (Logo + Nav) | 130px | static |
+| 3 | HeroSlider | 603px | click-driven (Swiper.js, arrows + dots) |
+| 4 | CategoryBanners (Kadın/Erkek) | 887px | static (2 large editorial images) |
+| 5 | BestSellers | 448px | click-driven (Swiper.js carousel) |
+| 6 | DavetStili | ~450px | static (split: image left, text right) |
+| 7 | LifestyleSlider | ~350px | click-driven (Swiper.js, round cards) |
+| 8 | VideoSection | ~450px | static (autoplay looping video) |
+| 9 | SarevBanner | ~500px | static (wide banner image with CTA button) |
+| 10 | TrustBadges | ~180px | static (5 icon+text columns) |
+| 11 | Newsletter | ~200px | static (email input + submit) |
+| 12 | FooterLinks | ~700px | static (multi-column link grid) |
+| 13 | FooterBottom | ~300px | static (logo, phone, social, payments) |
 
-## Interaction Models
-- Header nav: click-driven page navigation (no dropdown except "More")
-- Process cards: static
-- Products: click-driven carousel (prev/next arrows)
-- Clients grid: static
-- Contact form: form submit (static demo)
+## Shared/Sticky Elements
+- Back-to-top button: bottom-right, appears on scroll
+- Cookie banner: fixed bottom, z-index 9999
+
+## Dependencies
+- Header: srr-logo.png
+- HeroSlider: 8 slide images
+- BestSellers: 12 product images
+- LifestyleSlider: 8-10 card images
+- TrustBadges: 5 SVG icons
+- Footer: logo, Google Play/App Store badges, social icon images, payment method sprite images
 
 ## Responsive
-- Pages appear to center content with max-width ~960px
-- At mobile, nav collapses (Wix adds "More" dropdown)
+- Bootstrap grid (col-12 → col-sm-* → col-lg-*)
+- Mobile nav: drawer/hamburger at ~768px

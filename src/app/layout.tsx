@@ -2,20 +2,22 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const poppins = localFont({
+const teachers = localFont({
   src: [
-    { path: "../../public/fonts/poppins-400.woff2", weight: "400", style: "normal" },
-    { path: "../../public/fonts/poppins-600.woff2", weight: "600", style: "normal" },
-    { path: "../../public/fonts/poppins-700.woff2", weight: "700", style: "normal" },
+    { path: "../../public/fonts/teachers-400.ttf", weight: "400", style: "normal" },
+    { path: "../../public/fonts/teachers-500.ttf", weight: "500", style: "normal" },
+    { path: "../../public/fonts/teachers-600.ttf", weight: "600", style: "normal" },
+    { path: "../../public/fonts/teachers-700.ttf", weight: "700", style: "normal" },
+    { path: "../../public/fonts/teachers-800.ttf", weight: "800", style: "normal" },
   ],
-  variable: "--font-poppins",
+  variable: "--font-teachers",
   display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Merit Textile LTD.",
-  description: "Istanbul-based jersey manufacturer specializing in high-quality and exclusive garments.",
-  icons: { icon: "/seo/favicon.png" },
+  title: "Erkek, Kadın ve Ev tekstilinde Sarar Kalitesi - SARAR",
+  description: "Sarar resmi web sitesi. Erkek, kadın ve ev tekstili koleksiyonlarını keşfedin.",
+  icons: { icon: "/seo/sarar-fav-icon.png" },
 };
 
 export default function RootLayout({
@@ -24,8 +26,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`h-full ${poppins.variable}`}>
-      <body className="min-h-full">
+    <html lang="tr-TR" className={`h-full ${teachers.variable}`}>
+      <body className="min-h-full bg-white text-[#373738]">
         {children}
       </body>
     </html>
