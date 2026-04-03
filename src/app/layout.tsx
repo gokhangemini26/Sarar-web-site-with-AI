@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Header } from "@/components/navigation/header";
+import FooterLinks from "@/components/FooterLinks";
+import FooterBottom from "@/components/FooterBottom";
 import "./globals.css";
 
 const teachers = localFont({
@@ -28,7 +31,12 @@ export default function RootLayout({
   return (
     <html lang="tr-TR" className={`h-full ${teachers.variable}`}>
       <body className="min-h-full bg-white text-[#373738]">
+        <Header />
         {children}
+        <footer>
+          <FooterLinks />
+          <FooterBottom />
+        </footer>
       </body>
     </html>
   );
